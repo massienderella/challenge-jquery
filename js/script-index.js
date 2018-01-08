@@ -1,13 +1,13 @@
 $(document).ready( function(){
 
 	$('.back-arrow').hide(); //Para ocultar flecha
+	$('#news').append('NUEVAS RECETAS');
 
 
-	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
-	renderHighlightedRecipes(recipesArray);
+//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
+renderHighlightedRecipes(recipesArray);
 
 });
-
 
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan 
